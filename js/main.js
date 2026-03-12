@@ -95,11 +95,29 @@ const Navigation = {
     toggleMenu() {
         this.hamburger.classList.toggle('active');
         this.navMenu.classList.toggle('active');
+        
+        // Add scrolled class for navbar background when menu is open
+        if (this.navMenu.classList.contains('active')) {
+            this.navbar.classList.add('scrolled');
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
+        } else {
+            // Only remove scrolled class if not actually scrolled
+            if (window.scrollY <= 50) {
+                this.navbar.classList.remove('scrolled');
+            }
+            document.body.style.overflow = ''; // Restore scroll
+        }
     },
     
     closeMenu() {
         this.hamburger.classList.remove('active');
         this.navMenu.classList.remove('active');
+        
+        // Restore scrolled state based on actual scroll position
+        if (window.scrollY <= 50) {
+            this.navbar.classList.remove('scrolled');
+        }
+        document.body.style.overflow = ''; // Restore scroll
     },
     
     setActiveLink() {
