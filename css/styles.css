@@ -3520,37 +3520,6 @@ input, textarea {
 
 /* Tablet */
 @media (max-width: 991px) {
-    .nav-menu {
-        position: fixed;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--bg-primary);
-        box-shadow: var(--shadow-lg);
-        flex-direction: column;
-        gap: 0;
-        padding: 2rem;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-20px);
-        transition: all var(--transition-normal);
-    }
-    
-    .nav-menu.active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
-    
-    .nav-link {
-        padding: 1rem 0;
-        border-bottom: 1px solid var(--gray-200);
-    }
-    
-    .nav-link:last-child {
-        border-bottom: none;
-    }
-    
     .hamburger {
         display: flex;
     }
