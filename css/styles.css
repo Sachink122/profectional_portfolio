@@ -352,6 +352,8 @@ input, textarea {
     display: flex;
     align-items: center;
     gap: 1rem;
+    position: relative;
+    z-index: 10;
 }
 
 .theme-toggle {
@@ -397,6 +399,7 @@ input, textarea {
     position: relative;
     border-radius: 50%;
     transition: all var(--transition-normal);
+    z-index: 1002;
 }
 
 .hamburger::before {
@@ -428,7 +431,8 @@ input, textarea {
     width: 26px;
     height: 20px;
     position: relative;
-    z-index: 1;
+    z-index: 1003;
+    pointer-events: none;
 }
 
 .bar {
@@ -438,6 +442,8 @@ input, textarea {
     border-radius: 3px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform-origin: center;
+    display: block;
+    pointer-events: none;
 }
 
 .hamburger:hover .bar {
