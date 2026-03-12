@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Sachin Kumar | Full Stack Developer Portfolio</title>
+    <meta name="title" content="Sachin Kumar | Full Stack Developer Portfolio">
+    <meta name="description" content="Sachin Kumar - Full Stack Developer | Modern Web Applications & Digital Solutions. Specializing in React, Node.js, JavaScript, and responsive web design.">
+    <meta name="keywords" content="Sachin Kumar, Full Stack Developer, Web Developer, React Developer, Node.js, JavaScript, Portfolio, Frontend Developer, Backend Developer, BCA Student, CSMU Panvel">
+    <meta name="author" content="Sachin Kumar">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sachink122.github.io/portfolio/">
+    <meta property="og:title" content="Sachin Kumar - Full Stack Developer">
+    <meta property="og:description" content="Professional Full Stack Developer creating exceptional digital experiences. View my projects, skills, and get in touch!">
+    <meta property="og:image" content="https://sachink122.github.io/portfolio/assets/images/profile.jpg">
+    <meta property="og:site_name" content="Sachin Kumar Portfolio">
+    
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://sachink122.github.io/portfolio/">
+    <meta name="twitter:title" content="Sachin Kumar - Full Stack Developer">
+    <meta name="twitter:description" content="Professional Full Stack Developer creating exceptional digital experiences. View my projects, skills, and get in touch!">
+    <meta name="twitter:image" content="https://sachink122.github.io/portfolio/assets/images/profile.jpg">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sachink122.github.io/portfolio/">
+    
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sachin Kumar",
+        "url": "https://sachink122.github.io/portfolio/",
+        "image": "https://sachink122.github.io/portfolio/assets/images/profile.jpg",
+        "jobTitle": "Full Stack Developer",
+        "description": "Full Stack Developer specializing in modern web applications",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "CSMU Panvel"
+        },
+        "sameAs": [
+            "https://github.com/Sachink122",
+            "https://www.linkedin.com/in/sachin-kumar-941538312/"
+        ],
+        "email": "sgsk1sachin@gmail.com"
+    }
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" class="nav-cta">Hire Me</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-title">
+                    <span class="title-name">Sachin Kumar</span>
+                    <span class="title-role">Full Stack Developer</span>
+                </h1>
+                <p class="hero-description">
+                    I craft exceptional digital experiences through clean code and thoughtful design. 
+                    Specializing in building modern web applications that make an impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="assets/images/Sachin_Kumar_resume.pdf" class="btn btn-secondary" download="Sachin_Kumar_Resume.pdf">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Sachink122" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sachin-kumar-941538312/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                
+        
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-border"></div>
+                    <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-img">
+                    <div class="image-dots"></div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <img src="assets/images/profile.jpg" alt="Sachin Kumar - Full Stack Developer">
+                        <div class="about-experience-badge">
+                            <span class="badge-number">2+</span>
+                            <span class="badge-text">Years of Experience</span>
+                        </div>
+                        <div class="about-floating-elements">
+                            <div class="floating-tech tech-1"><i class="fab fa-react"></i></div>
+                            <div class="floating-tech tech-2"><i class="fab fa-node-js"></i></div>
+                            <div class="floating-tech tech-3"><i class="fab fa-js-square"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-award"></i>
+                            <h3>Experience</h3>
+                            <p>2+ Years Working</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-users"></i>
+                            <h3>Clients</h3>
+                            <p>4+ Worldwide</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-folder-open"></i>
+                            <h3>Projects</h3>
+                            <p>5+ Completed</p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        I'm a passionate full-stack developer with a keen eye for detail and a love for 
+                        creating seamless user experiences. With expertise in modern web technologies, 
+                        I transform ideas into powerful, scalable applications.
+                    </p>
+                    <p class="about-text">
+                        My journey in tech started over 5 years ago, and since then, I've had the privilege 
+                        of working with startups and established companies alike. I believe in writing clean, 
+                        maintainable code and staying up-to-date with the latest industry trends.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Name:</span>
+                            <span class="detail-value">Sachin Kumar
+                            </span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">sgsk1sachin@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Maharashtra, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Availability:</span>
+                            <span class="detail-value available">Open for Work</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Frontend Development
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS3/SASS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-vuejs"></i>
+                            </div>
+                            <span class="skill-name">Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-paint-brush"></i>
+                        Design & Tools
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <span class="skill-name">CLI/Bash</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-vial"></i>
+                            </div>
+                            <span class="skill-name">Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Recent Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/HEA.jpg" alt="HealthCare Chatbot ">
+                        <div class="project-overlay">
+                            <a href="https://chatbot-with-admin-git-master-sachink122s-projects.vercel.app?_vercel_share=ht2sFPSYUPEaFR9qpWUwdS0YGsjgzXwm" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Sachink122/chatbot-with-admin" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">HealthCare Chatbot</h3>
+                        <p class="project-description">
+                            A full-featured healthcare chatbot platform with appointment scheduling, 
+                            insurance integration,patient management,systems and more.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Fitness Tracker App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3 class="project-title">Fitness Tracker App</h3>
+                        <p class="project-description">
+                            A comprehensive fitness tracking application with workout plans, 
+                            progress tracking, and social features.
+                        </p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Task Management Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">Task Management Dashboard</h3>
+                        <p class="project-description">
+                            An intuitive project management tool with drag-and-drop functionality, 
+                            team collaboration, and detailed analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="assets/images/project4.jpg" alt="Brand Identity Design">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Design</span>
+                        <h3 class="project-title">Brand Identity Design</h3>
+                        <p class="project-description">
+                            Complete brand identity including logo, color palette, typography, 
+                            and comprehensive brand guidelines.
+                        </p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/project5.jpg" alt="Real Estate Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Sachink122" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">Real Estate Platform</h3>
+                        <p class="project-description">
+                            A modern real estate listing platform with advanced search filters, 
+                            virtual tours, and mortgage calculator.
+                        </p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="assets/images/project6.jpg" alt="Food Delivery App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Sachink122" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3 class="project-title">Food Delivery App</h3>
+                        <p class="project-description">
+                            A food ordering and delivery application with real-time tracking, 
+                            restaurant discovery, and payment integration.
+                        </p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/Sachink122" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i>
+                    <span>View More on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & Education</h2>
+            </div>
+            <div class="experience-content">
+                <div class="experience-column">
+                    <h3 class="column-title">
+                        <i class="fas fa-briefcase"></i>
+                        Work Experience
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025 - Present</span>
+                                <h4 class="timeline-title">Full Stack Development Learning</h4>
+                                <span class="timeline-company">Self-Directed Learning & Practice</span>
+                                <p class="timeline-description">
+                                    Actively developing expertise in modern web technologies including React, Node.js, 
+                                    and Python. Building practical projects and staying current with industry trends.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2024 - 2025</span>
+                                <h4 class="timeline-title">Personal Projects Development</h4>
+                                <span class="timeline-company">Portfolio Building</span>
+                                <p class="timeline-description">
+                                    Created multiple web applications and projects to demonstrate technical skills. 
+                                    Focus on responsive design, modern frameworks, and best practices.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - 2024</span>
+                                <h4 class="timeline-title">Programming Foundation</h4>
+                                <span class="timeline-company">Academic & Online Learning</span>
+                                <p class="timeline-description">
+                                    Built strong foundation in programming concepts, data structures, and algorithms. 
+                                    Completed various courses and hands-on coding challenges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-column">
+                    <h3 class="column-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - 2026</span>
+                                <h4 class="timeline-title">Bachelor of Computer Applications (BCA)</h4>
+                                <span class="timeline-company">Chhatrapati Shivaji Maharaj University (CSMU), Panvel</span>
+                                <p class="timeline-description">
+                                    Currently pursuing BCA with focus on software development, programming languages, 
+                                    and modern web technologies. Expected graduation: 2026.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023</span>
+                                <h4 class="timeline-title">Senior Secondary (12th Grade)</h4>
+                                <span class="timeline-company">RECKON PUBLIC ACADEMY & JUNIOR COLLEGE</span>
+                                <p class="timeline-description">
+                                    Arts, Science and Commerce stream, Maharashtra Board. 
+                                    Completed with 56% marks, building strong foundation for computer applications.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2021</span>
+                                <h4 class="timeline-title">Secondary School (10th Grade)</h4>
+                                <span class="timeline-company">RECKON PUBLIC ACADEMY & JUNIOR COLLEGE</span>
+                                <p class="timeline-description">
+                                    Maharashtra Board examination completed with excellent 82.60% marks, 
+                                    demonstrating strong academic foundation and dedication to learning.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What People Say</span>
+                <h2 class="section-title">Recommendations</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-text">
+                            "Passionate about learning and extremely dedicated to mastering web development. 
+                            Shows great problem-solving skills and attention to detail in projects. 
+                            Always eager to take on new challenges and learn from feedback."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Academic Mentor</h4>
+                            <span>Bachelor of Computer Applications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-text">
+                            "Demonstrates strong technical aptitude and a genuine enthusiasm for modern web technologies. 
+                            Quick to adapt to new frameworks and always striving to write clean, maintainable code. 
+                            A great team player with excellent communication skills."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Project Supervisor</h4>
+                            <span>CSMU, Panvel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-text">
+                            "Shows remarkable dedication to continuous learning and self-improvement. 
+                            Has built an impressive portfolio of projects while still in college. 
+                            The commitment to quality and best practices is evident in every project."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Peer Review</h4>
+                            <span>Development Community</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-nav">
+                <button class="nav-btn prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonials-dots"></div>
+                <button class="nav-btn next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your visions. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Email</span>
+                                <a href="mailto:sgsk1sachin@gmail.com">sgsk1sachin@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Phone</span>
+                                <a href="tel:+918668398960">+918668398960</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Location</span>
+                                <span>Maharastra, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/Sachink122" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sachin-kumar-941538312/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Your Name</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Your Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <a href="#home" class="footer-logo">Portfolio</a>
+                        <p>
+                            Creating digital experiences that matter. Let's build something amazing together.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-services">
+                        <h4>Services</h4>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Mobile Apps</li>
+                            <li>UI/UX Design</li>
+                            <li>Consulting</li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to get updates on my latest projects and tech articles.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Your Name. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container" id="chatbot-container">
+        <!-- Chat Button -->
+        <button class="chatbot-btn" id="chatbot-btn" aria-label="Open chat">
+            <i class="fas fa-comment-dots" id="chat-icon"></i>
+            <i class="fas fa-times" id="close-icon" style="display:none;"></i>
+        </button>
+        
+        <!-- Chat Window -->
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-header-info">
+                    <div class="chatbot-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chatbot-header-text">
+                        <h4>Portfolio Assistant</h4>
+                        <span class="chatbot-status"><span class="status-dot"></span> Online</span>
+                    </div>
+                </div>
+                <button class="chatbot-close" id="chatbot-close" aria-label="Close chat">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chat-message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hi! Welcome to my portfolio. I'll be assisting you here today.</p>
+                    </div>
+                </div>
+                <div class="chat-message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>How can I help you today?</p>
+                    </div>
+                </div>
+                <div class="chat-quick-actions">
+                    <button class="quick-action-btn" data-message="Tell me about yourself">About Me</button>
+                    <button class="quick-action-btn" data-message="Show me your projects">View Projects</button>
+                    <button class="quick-action-btn" data-message="What are your skills?">My Skills</button>
+                    <button class="quick-action-btn" data-message="How can I contact you?">Contact Info</button>                    <button class="quick-action-btn" data-message="hire">Hire Me</button>
+                    <button class="quick-action-btn" data-message="services">My Services</button>                </div>
+            </div>
+            
+            <div class="chatbot-input-area">
+                <input type="text" id="chatbot-input" placeholder="Type a message..." autocomplete="off">
+                <button class="chatbot-send" id="chatbot-send" aria-label="Send message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
