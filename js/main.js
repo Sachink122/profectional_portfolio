@@ -46,6 +46,7 @@ const Navigation = {
         
         this.bindEvents();
         this.setActiveLink();
+        this.addHamburgerPulse();
     },
     
     bindEvents() {
@@ -69,6 +70,18 @@ const Navigation = {
         
         // Update active link on scroll
         window.addEventListener('scroll', () => this.setActiveLink());
+    },
+    
+    addHamburgerPulse() {
+        // Add pulse animation on mobile after page load
+        if (window.innerWidth <= 768) {
+            setTimeout(() => {
+                this.hamburger.classList.add('pulse');
+                setTimeout(() => {
+                    this.hamburger.classList.remove('pulse');
+                }, 600);
+            }, 1500);
+        }
     },
     
     handleScroll() {
